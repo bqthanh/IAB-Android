@@ -155,8 +155,6 @@ public class MainActivity extends AppCompatActivity implements TradingCoinManage
             //別のスレッドを作成し、その中でconsumePurchaseメソッドを呼び出し
             mIabManager.consumePurchaseWithAsync(purchaseToken);
 
-            DebugLog.d("TAG", "Run to here !!");
-
         } catch (JSONException e) {
             DebugLog.i(TAG, e.getLocalizedMessage());
         }
