@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     tools:context="hbs.vn.iab.ui.MainActivity">
 
-
     <RelativeLayout
         android:id="@+id/rl_purchase"
         android:layout_width="match_parent"
@@ -28,7 +27,7 @@
             android:layout_height="wrap_content"
             android:layout_toRightOf="@id/lb_mycoin"
             android:paddingLeft="8dp"
-            android:text="100"/>
+            android:text="0"/>
 
     </RelativeLayout>
 
